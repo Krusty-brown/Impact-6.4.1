@@ -128,7 +128,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "#ededed",
+        "logo_item_background": "#f9f9f9",
         "logo_item_border": ""
       }
     },
@@ -153,7 +153,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#ededed",
         "background_gradient": "",
         "text_color": ""
       }
@@ -174,12 +174,55 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "rich_text_xrdkRr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aMWQiD": {
+          "type": "heading",
+          "settings": {
+            "text": "See the difference: Perfect sleep, every night",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_aMWQiD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_gqaCY6": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "image_with_text_overlay_FhdizH",
     "logo_list_c3ppmd",
     "rich_text_cEVir7",
-    "image_with_text_overlay_EtGYza"
+    "image_with_text_overlay_EtGYza",
+    "rich_text_xrdkRr",
+    "image_with_text_overlay_gqaCY6"
   ]
 }
