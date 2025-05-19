@@ -35,7 +35,7 @@
         "full_width": true,
         "allow_transparent_header": true,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "md",
         "image": "shopify://shop_images/Homme_cloud_large_canva.png",
         "mobile_image": "shopify://shop_images/Design_sans_titre_7_7137853a-2a31-49ae-974e-5a96bbc092f6.png",
         "mobile_text_position": "place-self-center text-center",
