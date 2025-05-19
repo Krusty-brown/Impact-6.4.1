@@ -82,6 +82,7 @@
         },
         "logo_y8rcPW": {
           "type": "logo",
+          "disabled": true,
           "settings": {
             "logo": "shopify://shop_images/ABC.png",
             "logo_width": 120,
