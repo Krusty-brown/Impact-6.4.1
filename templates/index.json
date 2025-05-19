@@ -48,15 +48,6 @@
     "logo_list_c3ppmd": {
       "type": "logo-list",
       "blocks": {
-        "logo_y8rcPW": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/ABC.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
         "logo_QmEghn": {
           "type": "logo",
           "settings": {
@@ -81,15 +72,6 @@
             "link": ""
           }
         },
-        "logo_zrykaW": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/BBC.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
         "logo_mLK6ge": {
           "type": "logo",
           "settings": {
@@ -98,9 +80,24 @@
             "link": ""
           }
         },
+        "logo_y8rcPW": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/ABC.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_zrykaW": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/BBC.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
         "logo_Dz9xTt": {
           "type": "logo",
-          "disabled": true,
           "settings": {
             "logo": "shopify://shop_images/bhc-onetrust.png",
             "logo_width": 120,
@@ -109,12 +106,12 @@
         }
       },
       "block_order": [
-        "logo_y8rcPW",
         "logo_QmEghn",
         "logo_EAaXdC",
         "logo_ArydTY",
-        "logo_zrykaW",
         "logo_mLK6ge",
+        "logo_y8rcPW",
+        "logo_zrykaW",
         "logo_Dz9xTt"
       ],
       "name": "Logo list",
