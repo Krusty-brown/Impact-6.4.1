@@ -139,7 +139,7 @@
           "type": "heading",
           "settings": {
             "text": "Why You Should Choose It?",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -182,7 +182,7 @@
           "type": "heading",
           "settings": {
             "text": "See the difference:   Perfect sleep, every night",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
