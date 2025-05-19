@@ -12,12 +12,6 @@
     "image_with_text_overlay_FhdizH": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_6xMrXW": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "heading_BecCNN": {
           "type": "heading",
           "settings": {
@@ -33,7 +27,6 @@
         }
       },
       "block_order": [
-        "subheading_6xMrXW",
         "heading_BecCNN",
         "richtext_nJAUFy"
       ],
