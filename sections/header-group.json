@@ -17,21 +17,29 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Free shipping",
+            "text": "Free shipping  🚚",
             "url": ""
           }
         },
         "message_t6qaE8": {
           "type": "message",
           "settings": {
-            "text": "Spring Comfort Days :-40%",
+            "text": "Spring Comfort Days : -40%",
+            "url": ""
+          }
+        },
+        "message_mR7ihz": {
+          "type": "message",
+          "settings": {
+            "text": "100% Secure Payment",
             "url": ""
           }
         }
       },
       "block_order": [
         "message",
-        "message_t6qaE8"
+        "message_t6qaE8",
+        "message_mR7ihz"
       ],
       "settings": {
         "enable_sticky": false,
