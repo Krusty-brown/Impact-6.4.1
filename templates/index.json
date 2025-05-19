@@ -181,8 +181,8 @@
         "heading_aMWQiD": {
           "type": "heading",
           "settings": {
-            "text": "See the difference: Perfect sleep, every night",
-            "heading_tag": "h3",
+            "text": "See the difference:   Perfect sleep, every night",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -203,6 +203,7 @@
     },
     "image_with_text_overlay_gqaCY6": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": false,
@@ -217,6 +218,22 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "video_9fwPmk": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/video_d70460d6fb854853e375ea1d235221ad copie_5d3d047c-a8cb-44fc-bd53-b5dd4548cd56.mp4",
+        "mobile_video": "shopify://files/videos/video_d70460d6fb854853e375ea1d235221ad copie_5d3d047c-a8cb-44fc-bd53-b5dd4548cd56.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -225,6 +242,7 @@
     "rich_text_cEVir7",
     "image_with_text_overlay_EtGYza",
     "rich_text_xrdkRr",
-    "image_with_text_overlay_gqaCY6"
+    "image_with_text_overlay_gqaCY6",
+    "video_9fwPmk"
   ]
 }
