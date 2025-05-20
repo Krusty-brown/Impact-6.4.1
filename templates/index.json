@@ -368,6 +368,7 @@
         },
         "image_p3BtDx": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copie_de_DUPLIQUEZ_POUR_MODIFIER_1.png",
             "alignment": "center",
@@ -376,7 +377,6 @@
         },
         "image_htwXnf": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copie_de_DUPLIQUEZ_POUR_MODIFIER_2.png",
             "alignment": "center",
