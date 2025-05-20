@@ -342,10 +342,6 @@
     "featured_product_jWDqw9": {
       "type": "featured-product",
       "blocks": {
-        "vendor_ynLzJt": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title_qpdrVy": {
           "type": "title",
           "settings": {
@@ -395,6 +391,14 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "image_wGjWkJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_DUPLIQUEZ_POUR_MODIFIER.png",
+            "alignment": "center",
+            "max_width": 260
+          }
+        },
         "buy_buttons_Frx3BE": {
           "type": "buy_buttons",
           "settings": {
@@ -420,7 +424,6 @@
         }
       },
       "block_order": [
-        "vendor_ynLzJt",
         "title_qpdrVy",
         "badges_LY9afh",
         "price_nwTKD6",
@@ -429,6 +432,7 @@
         "description_rQAcbR",
         "variant_picker_cBGtc7",
         "quantity_selector_PgDJaN",
+        "image_wGjWkJ",
         "buy_buttons_Frx3BE",
         "pickup_availability_8hEgYF",
         "image_HB98zL"
@@ -451,6 +455,20 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "custom_liquid_bYckGN": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .product__inventory {\n    padding-top: 10px; /* Ajustement de l'espacement */\n    padding-bottom: 10px; /* Ajustement de l'espacement */\n    color: #FF0000; /* Couleur rouge */\n  }\n\n  /* Animation de clignotement uniquement pour le bouton */\n  @keyframes blink {\n    0% { opacity: 1; }\n    50% { opacity: 0.4; }\n    100% { opacity: 1; }\n  }\n\n  .stock-indicator {\n    animation: blink 1s infinite;\n  }\n</style>\n\n<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\">\n    <svg class=\"stock-indicator\" width=\"15\" height=\"15\" aria-hidden=\"true\">\n        <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgba(255, 0, 0, 0.3)\"></circle>\n        <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(255, 0, 0)\"></circle>\n    </svg>  \n    Forte demande | Stock limité ! \n</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -462,6 +480,7 @@
     "image_with_text_overlay_gqaCY6",
     "video_9fwPmk",
     "multi_column_tzwVE8",
-    "featured_product_jWDqw9"
+    "featured_product_jWDqw9",
+    "custom_liquid_bYckGN"
   ]
 }
