@@ -409,6 +409,14 @@
         "pickup_availability_8hEgYF": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "image_HB98zL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_HEAVENLY_WARS_TABLIER_370_x_48_px4.png",
+            "alignment": "center",
+            "max_width": 310
+          }
         }
       },
       "block_order": [
@@ -422,7 +430,8 @@
         "variant_picker_cBGtc7",
         "quantity_selector_PgDJaN",
         "buy_buttons_Frx3BE",
-        "pickup_availability_8hEgYF"
+        "pickup_availability_8hEgYF",
+        "image_HB98zL"
       ],
       "name": "Featured product",
       "settings": {
@@ -430,7 +439,7 @@
         "product": "premium-contour-relief-pillow",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
+        "mobile_media_size": "contained",
         "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
