@@ -359,6 +359,7 @@
         },
         "image_wipUUt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Avis.png",
             "alignment": "center",
@@ -367,7 +368,6 @@
         },
         "image_p3BtDx": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copie_de_DUPLIQUEZ_POUR_MODIFIER_1.png",
             "alignment": "center",
