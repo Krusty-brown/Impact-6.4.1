@@ -394,8 +394,9 @@
         "image_DFMKKc": {
           "type": "image",
           "settings": {
-            "alignment": "start",
-            "max_width": 150
+            "image": "shopify://shop_images/Notes_Avis_social_proof.png",
+            "alignment": "center",
+            "max_width": 500
           }
         },
         "price_nwTKD6": {
