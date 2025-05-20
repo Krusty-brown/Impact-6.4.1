@@ -302,6 +302,19 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_cUagQd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/81NPVkEloUL.jpg",
+            "column_size": "3",
+            "title": "Dustin",
+            "heading_tag": "h4",
+            "content": "<p><strong>This pillow completely cured my neck pain. My wife and I bought two because it offers incredible support. I used to wake up stiff and sore, now I feel refreshed, like after a spa day. It’s like having a personal neck masseuse.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
@@ -309,7 +322,8 @@
         "item_yzexQT",
         "item_heFVW9",
         "item_Kbe9VL",
-        "item_AYzp9J"
+        "item_AYzp9J",
+        "item_cUagQd"
       ],
       "name": "Multi-column",
       "settings": {
