@@ -467,8 +467,32 @@
         },
         "liquid_zDjexe": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<style>\n  .low-stock-pulse {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 14px;\n    font-weight: 700; /* Bold */\n    font-family: 'Muli', sans-serif; /* Muli font */\n    margin: 5px 0;\n  }\n  \n  /* Default orange pulse dot */\n  .pulse-dot {\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background: #FF8C42; /* Lighter orange */\n    box-shadow: 0 0 0 0 rgba(255, 140, 66, 0.7); /* Matching lighter orange */\n    animation: pulse-orange 1.5s infinite;\n  }\n  \n  @keyframes pulse-orange {\n    0% {\n      transform: scale(0.95);\n      box-shadow: 0 0 0 0 rgba(255, 140, 66, 0.7);\n    }\n    70% {\n      transform: scale(1);\n      box-shadow: 0 0 0 6px rgba(255, 140, 66, 0);\n    }\n    100% {\n      transform: scale(0.95);\n      box-shadow: 0 0 0 0 rgba(255, 140, 66, 0);\n    }\n  }\n  \n  /* Red pulse dot */\n  .pulse-dot-red {\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background: #D64545; /* Red */\n    box-shadow: 0 0 0 0 rgba(214, 69, 69, 0.7); /* Red with opacity */\n    animation: pulse-red 1.5s infinite;\n  }\n  \n  @keyframes pulse-red {\n    0% {\n      transform: scale(0.95);\n      box-shadow: 0 0 0 0 rgba(214, 69, 69, 0.7);\n    }\n    70% {\n      transform: scale(1);\n      box-shadow: 0 0 0 6px rgba(214, 69, 69, 0);\n    }\n    100% {\n      transform: scale(0.95);\n      box-shadow: 0 0 0 0 rgba(214, 69, 69, 0);\n    }\n  }\n  \n  /* Green pulse dot */\n  .pulse-dot-green {\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background: #3BB54A; /* Green */\n    box-shadow: 0 0 0 0 rgba(59, 181, 74, 0.7); /* Green with opacity */\n    animation: pulse-green 1.5s infinite;\n  }\n  \n  @keyframes pulse-green {\n    0% {\n      transform: scale(0.95);\n      box-shadow: 0 0 0 0 rgba(59, 181, 74, 0.7);\n    }\n    70% {\n      transform: scale(1);\n      box-shadow: 0 0 0 6px rgba(59, 181, 74, 0);\n    }\n    100% {\n      transform: scale(0.95);\n      box-shadow: 0 0 0 0 rgba(59, 181, 74, 0);\n    }\n  }\n  \n  .out-of-stock {\n    color: #D64545; /* Red color for out of stock */\n  }\n  \n  .critical-stock {\n    color: #D64545; /* Red color for critical stock (1-199) */\n  }\n  \n  .medium-stock {\n    color: #FF8C42; /* Orange color to match the medium stock dot */\n  }\n  \n  .in-stock {\n    color: #3BB54A; /* Green color for good stock */\n  }\n</style>\n\n<!-- Initial stock display based on selected/first variant -->\n<div class=\"stock-indicator\" id=\"stock-indicator\">\n  {% if product.selected_or_first_available_variant.inventory_quantity <= 0 %}\n    <div class=\"low-stock-pulse out-of-stock\">\n      <div class=\"pulse-dot-red\"></div>\n      <span>Out of stock</span>\n    </div>\n  {% elsif product.selected_or_first_available_variant.inventory_quantity <= 199 %}\n    <div class=\"low-stock-pulse critical-stock\">\n      <div class=\"pulse-dot-red\"></div>\n      <span>Only 4 more left</span>\n    </div>\n  {% elsif product.selected_or_first_available_variant.inventory_quantity <= 399 %}\n    <div class=\"low-stock-pulse medium-stock\">\n      <div class=\"pulse-dot\"></div>\n      <span>Only 7 more left</span>\n    </div>\n  {% elsif product.selected_or_first_available_variant.inventory_quantity <= 599 %}\n    <div class=\"low-stock-pulse medium-stock\">\n      <div class=\"pulse-dot\"></div>\n      <span>Only 12 more left</span>\n    </div>\n  {% else %}\n    <div class=\"low-stock-pulse in-stock\">\n      <div class=\"pulse-dot-green\"></div>\n      <span>In stock</span>\n    </div>\n  {% endif %}\n</div>\n\n<script>\n  // Set up variant change listener\n  document.addEventListener('DOMContentLoaded', function() {\n    // Function to update stock message\n    function updateStockMessage(variant) {\n      if (!variant) return;\n      \n      const stockIndicator = document.getElementById('stock-indicator');\n      const inventoryLevel = variant.inventory_quantity;\n      let stockHTML = '';\n      \n      if (inventoryLevel <= 0) {\n        stockHTML = `\n          <div class=\"low-stock-pulse out-of-stock\">\n            <div class=\"pulse-dot-red\"></div>\n            <span>Stock running low!</span>\n          </div>\n        `;\n      } else if (inventoryLevel <= 199) {\n        stockHTML = `\n          <div class=\"low-stock-pulse critical-stock\">\n            <div class=\"pulse-dot-red\"></div>\n            <span>Stock running low!</span>\n          </div>\n        `;\n      } else if (inventoryLevel <= 399) {\n        stockHTML = `\n          <div class=\"low-stock-pulse medium-stock\">\n            <div class=\"pulse-dot\"></div>\n            <span>Only 7 more left</span>\n          </div>\n        `;\n      } else if (inventoryLevel <= 599) {\n        stockHTML = `\n          <div class=\"low-stock-pulse medium-stock\">\n            <div class=\"pulse-dot\"></div>\n            <span>Only 12 more left</span>\n          </div>\n        `;\n      } else {\n        stockHTML = `\n          <div class=\"low-stock-pulse in-stock\">\n            <div class=\"pulse-dot-green\"></div>\n            <span>In stock</span>\n          </div>\n        `;\n      }\n      \n      stockIndicator.innerHTML = stockHTML;\n    }\n    \n    // Initialize all variant inventory quantities\n    const variantInventory = {};\n    {% for variant in product.variants %}\n      variantInventory[{{ variant.id }}] = {{ variant.inventory_quantity | default: 0 }};\n    {% endfor %}\n    \n    // Listen for variant change events\n    document.addEventListener('variant:change', function(event) {\n      const variant = event.detail.variant;\n      if (variant) {\n        // Create a mock variant object with inventory data\n        const variantWithInventory = {\n          id: variant.id,\n          inventory_quantity: variantInventory[variant.id] || 0\n        };\n        updateStockMessage(variantWithInventory);\n      }\n    });\n    \n    // For older themes that might use a different event\n    const selectElements = document.querySelectorAll('select[name=\"id\"], input[name=\"id\"]');\n    selectElements.forEach(select => {\n      select.addEventListener('change', function() {\n        const variantId = parseInt(this.value);\n        const variantWithInventory = {\n          id: variantId,\n          inventory_quantity: variantInventory[variantId] || 0\n        };\n        updateStockMessage(variantWithInventory);\n      });\n    });\n  });\n</script>"
+          }
+        },
+        "liquid_WUzM4T": {
+          "type": "liquid",
+          "name": "3 benefices",
+          "disabled": true,
+          "settings": {
+            "liquid": "<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Affinez votre silhouette plus rapidement</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Réduisez visiblement la cellulite</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 17px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Tonifiez et raffermissez vos jambes et fesses</span>\n</li>"
+          }
+        },
+        "liquid_rnc9DY": {
+          "type": "liquid",
+          "name": "Block d'images ",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div style=\"margin-top: 10px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/ASSURANCE_CASSE_VALABLE_1_AN_3.png?v=1743413838\" style=\"width: 100%; margin-bottom: -5px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/TEMPLATE_BLOC_CONTACT_1.png?v=1743413838\" style=\"width: 100%;\">\n</div>\n<div id='ss-product-videos2'>\n</div>"
+          }
+        },
+        "liquid_qa6Yen": {
+          "type": "liquid",
+          "name": "Photo offre marketing",
+          "settings": {
+            "liquid": "<div style=\"margin-top: 5px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/BANNIERE_OFFRE_1.png?v=1743518241\" style=\"width: 100%; margin-bottom: 10px;\">"
           }
         },
         "buy_buttons_Frx3BE": {
@@ -486,8 +510,17 @@
           "type": "pickup_availability",
           "settings": {}
         },
+        "liquid_mGWhiT": {
+          "type": "liquid",
+          "name": "Badges paiement",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div style=\"margin-top: -18px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0870/2204/3320/files/badge_paiemejnt.png?v=1736771544\" style=\"width: 100%; margin-bottom: 10px;\">"
+          }
+        },
         "image_HB98zL": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copie_de_HEAVENLY_WARS_TABLIER_370_x_48_px4.png",
             "alignment": "center",
@@ -521,8 +554,12 @@
         "liquid_wPPzbT",
         "liquid_qKXULc",
         "liquid_zDjexe",
+        "liquid_WUzM4T",
+        "liquid_rnc9DY",
+        "liquid_qa6Yen",
         "buy_buttons_Frx3BE",
         "pickup_availability_8hEgYF",
+        "liquid_mGWhiT",
         "image_HB98zL",
         "liquid_mgWEc8"
       ],
