@@ -359,7 +359,6 @@
         },
         "image_FEicNE": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copie_de_DUPLIQUEZ_POUR_MODIFIER_3.png",
             "alignment": "center",
