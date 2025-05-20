@@ -364,8 +364,17 @@
             "show_empty": false
           }
         },
+        "image_wipUUt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avis.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "separator_VwBkN4": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "description_rQAcbR": {
@@ -421,6 +430,12 @@
             "alignment": "center",
             "max_width": 310
           }
+        },
+        "liquid_mgWEc8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
         }
       },
       "block_order": [
@@ -428,6 +443,7 @@
         "badges_LY9afh",
         "price_nwTKD6",
         "rating_gAVpEc",
+        "image_wipUUt",
         "separator_VwBkN4",
         "description_rQAcbR",
         "variant_picker_cBGtc7",
@@ -435,7 +451,8 @@
         "image_wGjWkJ",
         "buy_buttons_Frx3BE",
         "pickup_availability_8hEgYF",
-        "image_HB98zL"
+        "image_HB98zL",
+        "liquid_mgWEc8"
       ],
       "name": "Featured product",
       "settings": {
