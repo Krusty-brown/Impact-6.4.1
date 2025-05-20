@@ -359,6 +359,7 @@
         },
         "image_wipUUt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Avis.png",
             "alignment": "center",
