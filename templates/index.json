@@ -365,8 +365,17 @@
             "max_width": 500
           }
         },
+        "image_DFMKKc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Notes_Avis_social_proof.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "image_p3BtDx": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copie_de_DUPLIQUEZ_POUR_MODIFIER_1.png",
             "alignment": "center",
@@ -387,14 +396,6 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Copie_de_DUPLIQUEZ_POUR_MODIFIER_2.png",
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "image_DFMKKc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Notes_Avis_social_proof.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -469,10 +470,10 @@
         "separator_VwBkN4",
         "badges_LY9afh",
         "image_FEicNE",
+        "image_DFMKKc",
         "image_p3BtDx",
         "image_wipUUt",
         "image_htwXnf",
-        "image_DFMKKc",
         "price_nwTKD6",
         "rating_gAVpEc",
         "description_rQAcbR",
