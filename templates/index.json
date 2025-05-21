@@ -662,8 +662,8 @@
         "tab_XCBbxB": {
           "type": "tab",
           "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "title": "Free shipping",
+            "content": "<p>Home delivery is <strong>free</strong>. Depending on the order volume, the estimated delivery time is between <br/><strong>6 and 10 working days.</strong></p>",
             "page": ""
           }
         }
