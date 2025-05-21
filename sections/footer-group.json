@@ -46,9 +46,9 @@
             "icon": "picto-lock",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "circle",
+            "icon_background_type": "none",
             "icon_background": "#9aa8fe",
-            "icon_color": "",
+            "icon_color": "#000000",
             "title": "100% Secure Payment",
             "content": "<p>Tell your customers about your promotional offers.</p>"
           }
