@@ -491,8 +491,17 @@
         "liquid_qa6Yen": {
           "type": "liquid",
           "name": "Photo offre marketing",
+          "disabled": true,
           "settings": {
             "liquid": "<div style=\"margin-top: 5px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/BANNIERE_OFFRE_1.png?v=1743518241\" style=\"width: 100%; margin-bottom: 10px;\">"
+          }
+        },
+        "image_A8UdT6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Template_Offre_Marketing_1.png",
+            "alignment": "center",
+            "max_width": 500
           }
         },
         "buy_buttons_Frx3BE": {
@@ -557,6 +566,7 @@
         "liquid_WUzM4T",
         "liquid_rnc9DY",
         "liquid_qa6Yen",
+        "image_A8UdT6",
         "buy_buttons_Frx3BE",
         "pickup_availability_8hEgYF",
         "liquid_mGWhiT",
