@@ -872,6 +872,27 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "contact_RUdcby": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Our customer service is available 7 days a week. Average response time: 24–48 hours.",
+        "title": "Do you have any question?",
+        "content": "<p>Write to us using the form below and we’ll get back to you as soon as possible.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#9aa8fe",
+        "button_text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -888,6 +909,7 @@
     "custom_liquid_kkbBPU",
     "tabs_UYNyXK",
     "ss_glow_testimonial_8RKmgG",
-    "faq_RQbaAc"
+    "faq_RQbaAc",
+    "contact_RUdcby"
   ]
 }
