@@ -620,6 +620,54 @@
         "text_color": ""
       }
     },
+    "tabs_UYNyXK": {
+      "type": "tabs",
+      "blocks": {
+        "tab_tYFhCh": {
+          "type": "tab",
+          "settings": {
+            "title": "Specifications",
+            "content": "<p>• <strong>Dimensions</strong>: Approximately 62 × 37 × 12 cm<br/>• <strong>Material</strong>: High-density memory foam <br/>• <strong>Weight</strong>: Approximately 1.2 kg<br/>• <strong>Cover</strong>: Removable and washable, made from hypoallergenic and breathable fabric<br/>• <strong>Design</strong>: Dual-height contours (12 cm & 14 cm) to accommodate various sleeping positions</p>",
+            "page": ""
+          }
+        },
+        "tab_XkVxMh": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_XCBbxB": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_tYFhCh",
+        "tab_XkVxMh",
+        "tab_XCBbxB"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "Heading",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "ss_glow_testimonial_8RKmgG": {
       "type": "ss-glow-testimonial",
       "blocks": {
@@ -708,6 +756,7 @@
     "featured_product_jWDqw9",
     "custom_liquid_bYckGN",
     "custom_liquid_kkbBPU",
+    "tabs_UYNyXK",
     "ss_glow_testimonial_8RKmgG"
   ]
 }
