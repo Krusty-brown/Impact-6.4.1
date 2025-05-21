@@ -792,22 +792,22 @@
         "item_TBeWUn": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "If I don't like it can I return it?",
+            "content": "<p>We’re confident you’ll love your purchase, but if for any reason you’re not 100% satisfied within the first 30 days, simply return it to us for a full refund.</p>"
           }
         },
         "item_HGbLka": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Is it suitable for all sleeping positions?",
+            "content": "<p>Yes, it is! The pillow is designed to support all sleeping positions, whether you’re a back, side, or stomach sleeper.</p>"
           }
         },
         "item_enV46E": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Does my purchase include a pillowcase?",
+            "content": "<p>Yes, the pillow comes with a pillowcase already fitted, so it’s ready to use straight out of the box. The cover is removable and washable for easy care.</p>"
           }
         }
       },
