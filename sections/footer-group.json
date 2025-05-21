@@ -24,7 +24,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "content": "<p>Free home delivery on all orders,  no extra fees.</p>"
           }
         },
         "customer-support": {
@@ -37,7 +37,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Customer Service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "content": "<p>We’re here 7 days a week. Feel free to reach out anytime.</p>"
           }
         },
         "discount": {
@@ -50,20 +50,20 @@
             "icon_background": "#9aa8fe",
             "icon_color": "#000000",
             "title": "100% Secure Payment",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "content": "<p>Your payment is fully encrypted and protected.</p>"
           }
         },
         "payment": {
           "type": "item",
           "settings": {
-            "icon": "picto-lock",
+            "icon": "picto-like",
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "title": "Money Back Guarantee",
+            "content": "<p>Not satisfied? Return it within 30 days for a full refund.</p>"
           }
         }
       },
