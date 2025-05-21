@@ -809,12 +809,44 @@
             "title": "Does my purchase include a pillowcase?",
             "content": "<p>Yes, the pillow comes with a pillowcase already fitted, so it’s ready to use straight out of the box. The cover is removable and washable for easy care.</p>"
           }
+        },
+        "item_nc7bqj": {
+          "type": "item",
+          "settings": {
+            "title": " I sleep on my side – is this pillow right for me?",
+            "content": "<p><strong>Absolutely</strong>. The pillow is designed to support both <strong>side and back sleepers</strong>. Its ergonomic shape helps maintain proper alignment, reduces pressure points, and keeps your neck comfortably supported throughout the night.</p>"
+          }
+        },
+        "item_6FVRBJ": {
+          "type": "item",
+          "settings": {
+            "title": "How do I clean it? Can I use a pillowcase?",
+            "content": "<p>Yes, the pillow comes with a <strong>removable, washable cover</strong> that’s easy to care for. Just unzip it and toss it in the wash. No need for an extra pillowcase it’s ready to use as is.</p>"
+          }
+        },
+        "item_VJTCM8": {
+          "type": "item",
+          "settings": {
+            "title": "Another “miracle” pillow? Really?",
+            "content": "<p>We hear you. There’s a lot of hype out there. But this pillow is different, it’s designed based on real ergonomic research, not empty promises. Thousands of satisfied customers already feel the difference night after night.</p>"
+          }
+        },
+        "item_Ee3gXV": {
+          "type": "item",
+          "settings": {
+            "title": "What if it’s too firm or too soft for me?",
+            "content": "<p>The high-density memory foam is carefully balanced: not too hard, not too soft. It adapts to your shape and sleeping position, offering just the right support where you need it most. And if it’s not for you, no worries…</p>"
+          }
         }
       },
       "block_order": [
         "item_TBeWUn",
         "item_HGbLka",
-        "item_enV46E"
+        "item_enV46E",
+        "item_nc7bqj",
+        "item_6FVRBJ",
+        "item_VJTCM8",
+        "item_Ee3gXV"
       ],
       "name": "FAQ",
       "settings": {
