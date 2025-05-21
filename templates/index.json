@@ -435,8 +435,17 @@
         },
         "image_VRBkry": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Template_Offre_Marketing_5.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "image_qbkqxc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Template_Offre_Marketing_4_6cbc799f-0703-4659-a76a-85fb2553e4a0.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -576,6 +585,7 @@
         "image_A8UdT6",
         "image_PbawKM",
         "image_VRBkry",
+        "image_qbkqxc",
         "price_nwTKD6",
         "rating_gAVpEc",
         "description_rQAcbR",
