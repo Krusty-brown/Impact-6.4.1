@@ -417,7 +417,6 @@
         },
         "image_A8UdT6": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Template_Offre_Marketing_1.png",
             "alignment": "center",
@@ -426,6 +425,7 @@
         },
         "image_PbawKM": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Template_Offre_Marketing_2.png",
             "alignment": "center",
