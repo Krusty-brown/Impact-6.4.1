@@ -666,12 +666,21 @@
             "content": "<p>Home delivery is <strong>free</strong>. Depending on the order volume, the estimated delivery time is between <br/><strong>6 and 10 working days.</strong></p>",
             "page": ""
           }
+        },
+        "tab_WJfzRi": {
+          "type": "tab",
+          "settings": {
+            "title": "Contact Us Anytime",
+            "content": "<p>Our team is here to help, <strong>7 days a week</strong>.</p><p>You can reach us by email. Don’t hesitate to get in touch.<br/>We’re happy to assist you.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "tab_tYFhCh",
         "tab_XkVxMh",
-        "tab_XCBbxB"
+        "tab_XCBbxB",
+        "tab_WJfzRi"
       ],
       "name": "Tabs",
       "settings": {
