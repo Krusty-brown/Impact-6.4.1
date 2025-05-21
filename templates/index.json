@@ -433,10 +433,10 @@
             "max_width": 500
           }
         },
-        "image_mCcJpE": {
+        "image_VRBkry": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Template_Offre_Marketing_3.png",
+            "image": "shopify://shop_images/Template_Offre_Marketing_5.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -575,7 +575,7 @@
         "image_htwXnf",
         "image_A8UdT6",
         "image_PbawKM",
-        "image_mCcJpE",
+        "image_VRBkry",
         "price_nwTKD6",
         "rating_gAVpEc",
         "description_rQAcbR",
@@ -645,6 +645,7 @@
       "blocks": {
         "tab_tYFhCh": {
           "type": "tab",
+          "name": "Caracteristiques",
           "settings": {
             "title": "Specifications",
             "content": "<p>• <strong>Dimensions</strong>: Approximately 62 × 37 × 12 cm<br/>• <strong>Material</strong>: High-density memory foam <br/>• <strong>Weight</strong>: Approximately 1.2 kg<br/>• <strong>Cover</strong>: Removable and washable, made from hypoallergenic and breathable fabric<br/>• <strong>Design</strong>: Dual-height contours (12 cm & 14 cm) to accommodate various sleeping positions</p>",
@@ -653,6 +654,7 @@
         },
         "tab_XkVxMh": {
           "type": "tab",
+          "name": "30 jours essaies",
           "settings": {
             "title": "30 Night Risk-Free Trial",
             "content": "<p>Your 30-night trial begins the day your pillow is delivered to your doorstep. If you decide it isn't a perfect fit for you within the first 30 nights, we'll help you process a return and issue a full refund.</p>",
@@ -661,6 +663,7 @@
         },
         "tab_XCBbxB": {
           "type": "tab",
+          "name": "Free shipping",
           "settings": {
             "title": "Free shipping",
             "content": "<p>Home delivery is <strong>free</strong>. Depending on the order volume, the estimated delivery time is between <br/><strong>6 and 10 working days.</strong></p>",
@@ -669,6 +672,7 @@
         },
         "tab_WJfzRi": {
           "type": "tab",
+          "name": "Service client",
           "settings": {
             "title": "Contact Us Anytime",
             "content": "<p>Our team is here to help, <strong>7 days a week</strong>.</p><p>You can reach us by email. Don’t hesitate to get in touch.<br/>We’re happy to assist you.</p>",
