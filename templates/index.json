@@ -818,14 +818,6 @@
             "content": "<p>The high-density memory foam is carefully balanced: not too hard, not too soft. It adapts to your shape and sleeping position, offering just the right support where you need it most. And if it’s not for you, no worries…</p>"
           }
         },
-        "item_TBeWUn": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "title": "If I don't like it can I return it?",
-            "content": "<p>We’re confident you’ll love your purchase, but if for any reason you’re not 100% satisfied within the first 30 days, simply return it to us for a full refund.</p>"
-          }
-        },
         "item_enV46E": {
           "type": "item",
           "disabled": true,
@@ -840,6 +832,13 @@
             "title": "How do I clean it? Can I use a pillowcase?",
             "content": "<p>Yes, the pillow comes with a <strong>removable, washable cover</strong> that’s easy to care for. Just unzip it and toss it in the wash. No need for an extra pillowcase it’s ready to use as is.</p>"
           }
+        },
+        "item_TBeWUn": {
+          "type": "item",
+          "settings": {
+            "title": "If I don't like it can I return it?",
+            "content": "<p>We’re confident you’ll love your purchase, but if for any reason you’re not 100% satisfied within the first 30 days, simply return it to us for a full refund.</p>"
+          }
         }
       },
       "block_order": [
@@ -847,9 +846,9 @@
         "item_HGbLka",
         "item_nc7bqj",
         "item_Ee3gXV",
-        "item_TBeWUn",
         "item_enV46E",
-        "item_6FVRBJ"
+        "item_6FVRBJ",
+        "item_TBeWUn"
       ],
       "name": "FAQ",
       "settings": {
