@@ -16,11 +16,12 @@
           "type": "totals",
           "settings": {
             "show_order_weight": false,
-            "show_shipping_text": true
+            "show_shipping_text": false
           }
         },
         "cart_note": {
           "type": "cart_note",
+          "disabled": true,
           "settings": {}
         },
         "checkout_button": {
@@ -34,12 +35,13 @@
         "checkout_button"
       ],
       "settings": {
-        "show_shipping_estimator": true,
+        "show_shipping_estimator": false,
         "show_payment_icons": true
       }
     },
     "custom_liquid_TMnQVC": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
