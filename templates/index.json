@@ -535,10 +535,17 @@
         },
         "image_6eCi93": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Notes_Avis_social_proof_6.png",
             "alignment": "center",
             "max_width": 500
+          }
+        },
+        "liquid_wjrkyR": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin-top: -18px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0870/2204/3320/files/badge_paiemejnt.png?v=1736771544\" style=\"width: 100%; margin-bottom: 10px;\">"
           }
         },
         "pickup_availability_8hEgYF": {
@@ -599,6 +606,7 @@
         "liquid_qa6Yen",
         "buy_buttons_Frx3BE",
         "image_6eCi93",
+        "liquid_wjrkyR",
         "pickup_availability_8hEgYF",
         "liquid_mGWhiT",
         "image_HB98zL",
