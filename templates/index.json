@@ -761,42 +761,48 @@
         "image_MQwG3V": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
+            "review_text": "Great product!I really like this item I would definitely recommend it to get the job done !",
             "review_rating": 5
           }
         },
         "image_iX9Ewe": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
+            "review_text": "Very comfortable. Takes a couple days too get used to it. My neck and shoulder are feeling much better.",
             "review_rating": 5
           }
         },
         "image_miH6ka": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
+            "review_text": "Feels good on my neck",
             "review_rating": 5
           }
         },
         "image_FKzTCj": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
+            "review_text": "Husband seem to like it",
             "review_rating": 5
           }
         },
         "image_kDrXGQ": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
+            "review_text": "I’m sleeping better now that I have this pillow.",
             "review_rating": 5
           }
         },
         "image_EP6jcR": {
           "type": "Image",
           "settings": {
-            "review_text": "Add awesome customer testimonial right here",
+            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
+            "review_text": "After only using for two nights, my husband says his neck is noticeably better! He’s tried everything; finally a pillow that helps.",
             "review_rating": 5
           }
         }
