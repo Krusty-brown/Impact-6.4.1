@@ -109,7 +109,7 @@
           "type": "text",
           "settings": {
             "title": "Customer service",
-            "content": "<p><strong>Mail: </strong>contact@mycloomy.com<br/><br/><strong>Response time:</strong> 24h-48h</p>",
+            "content": "<p><strong>Mail: </strong>contact@my-cloomy.com<br/><br/><strong>Response time:</strong> 24h-48h</p>",
             "enable_follow_on_shop": false
           }
         }
