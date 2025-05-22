@@ -672,6 +672,14 @@
             "page": ""
           }
         },
+        "tab_RcxerQ": {
+          "type": "tab",
+          "settings": {
+            "title": "How to use",
+            "content": "<p>The pillow may take 1 to 3 days to fully expand into its proper shape. We recommend airing it out in a cool, dry, and well-ventilated space during this time.</p>",
+            "page": ""
+          }
+        },
         "tab_XCBbxB": {
           "type": "tab",
           "name": "Free shipping",
@@ -702,6 +710,7 @@
       },
       "block_order": [
         "tab_tYFhCh",
+        "tab_RcxerQ",
         "tab_XCBbxB",
         "tab_XkVxMh",
         "tab_WJfzRi"
