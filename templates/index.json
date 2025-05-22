@@ -672,21 +672,21 @@
             "page": ""
           }
         },
-        "tab_XkVxMh": {
-          "type": "tab",
-          "name": "30 jours essaies",
-          "settings": {
-            "title": "30 Night Risk-Free Trial",
-            "content": "<p>Your 30-night trial begins the day your pillow is delivered to your doorstep. If you decide it isn't a perfect fit for you within the first 30 nights, we'll help you process a return and issue a full refund.</p>",
-            "page": ""
-          }
-        },
         "tab_XCBbxB": {
           "type": "tab",
           "name": "Free shipping",
           "settings": {
             "title": "Free shipping",
             "content": "<p>Home delivery is <strong>free</strong>. Depending on the order volume, the estimated delivery time is between <br/><strong>6 and 10 working days.</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_XkVxMh": {
+          "type": "tab",
+          "name": "30 jours essaies",
+          "settings": {
+            "title": "30 Night Risk-Free Trial",
+            "content": "<p>Your 30-night trial begins the day your pillow is delivered to your doorstep. If you decide it isn't a perfect fit for you within the first 30 nights, we'll help you process a return and issue a full refund.</p>",
             "page": ""
           }
         },
@@ -702,8 +702,8 @@
       },
       "block_order": [
         "tab_tYFhCh",
-        "tab_XkVxMh",
         "tab_XCBbxB",
+        "tab_XkVxMh",
         "tab_WJfzRi"
       ],
       "name": "Fiche technique",
