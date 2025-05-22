@@ -201,24 +201,6 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_gqaCY6": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/17969363.jpg",
-        "mobile_image": "shopify://shop_images/17969363.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "video_9fwPmk": {
       "type": "video",
       "name": "Video",
@@ -730,6 +712,49 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_zTeKM8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cWHzdB": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Pillow vs Traditional Pillows",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_cWHzdB"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_yV6eNp": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/17969363.jpg",
+        "mobile_image": "shopify://shop_images/17969363.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "ss_glow_testimonial_8RKmgG": {
       "type": "ss-glow-testimonial",
       "blocks": {
@@ -948,13 +973,14 @@
     "rich_text_cEVir7",
     "image_with_text_overlay_EtGYza",
     "rich_text_xrdkRr",
-    "image_with_text_overlay_gqaCY6",
     "video_9fwPmk",
     "multi_column_tzwVE8",
     "featured_product_jWDqw9",
     "custom_liquid_bYckGN",
     "custom_liquid_kkbBPU",
     "tabs_UYNyXK",
+    "rich_text_zTeKM8",
+    "image_with_text_overlay_yV6eNp",
     "ss_glow_testimonial_8RKmgG",
     "1747910727eb6d7ae4",
     "faq_RQbaAc",
