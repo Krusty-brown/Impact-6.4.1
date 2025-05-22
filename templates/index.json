@@ -533,6 +533,14 @@
             "payment_button_text_color": ""
           }
         },
+        "image_6eCi93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Notes_Avis_social_proof_6.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "pickup_availability_8hEgYF": {
           "type": "pickup_availability",
           "settings": {}
@@ -590,6 +598,7 @@
         "liquid_rnc9DY",
         "liquid_qa6Yen",
         "buy_buttons_Frx3BE",
+        "image_6eCi93",
         "pickup_availability_8hEgYF",
         "liquid_mGWhiT",
         "image_HB98zL",
