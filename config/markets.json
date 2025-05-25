@@ -8,9 +8,12 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "header-group.json",
-  "context": {
-    "market": "uk"
-  },
-  "sections": {}
+  "markets": {
+    "aud": {
+      "parent": "@default"
+    },
+    "uk": {
+      "parent": "@default"
+    }
+  }
 }
