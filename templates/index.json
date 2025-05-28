@@ -30,7 +30,6 @@
         "heading_BecCNN",
         "richtext_nJAUFy"
       ],
-      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -115,7 +114,6 @@
         "logo_zrykaW",
         "logo_Dz9xTt"
       ],
-      "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -148,7 +146,6 @@
       "block_order": [
         "heading_P93JY6"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -160,7 +157,6 @@
     },
     "image_with_text_overlay_EtGYza": {
       "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -191,7 +187,6 @@
       "block_order": [
         "heading_aMWQiD"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -203,7 +198,6 @@
     },
     "video_9fwPmk": {
       "type": "video",
-      "name": "Video",
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -307,7 +301,6 @@
         "item_AYzp9J",
         "item_cUagQd"
       ],
-      "name": "Multi-column",
       "settings": {
         "full_width": false,
         "stack_on_mobile": false,
@@ -478,7 +471,6 @@
         },
         "liquid_wPPzbT": {
           "type": "liquid",
-          "name": "Liquid Few left in stock",
           "disabled": true,
           "settings": {
             "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Few left in stock!</div>\n</div>"
@@ -486,7 +478,6 @@
         },
         "liquid_qKXULc": {
           "type": "liquid",
-          "name": "Liquid Stock running low",
           "settings": {
             "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock running low!</div>\n</div>"
           }
@@ -500,7 +491,6 @@
         },
         "liquid_WUzM4T": {
           "type": "liquid",
-          "name": "3 benefices",
           "disabled": true,
           "settings": {
             "liquid": "<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Affinez votre silhouette plus rapidement</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Réduisez visiblement la cellulite</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 17px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Tonifiez et raffermissez vos jambes et fesses</span>\n</li>"
@@ -508,7 +498,6 @@
         },
         "liquid_rnc9DY": {
           "type": "liquid",
-          "name": "Block d'images ",
           "disabled": true,
           "settings": {
             "liquid": "<div style=\"margin-top: 10px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/ASSURANCE_CASSE_VALABLE_1_AN_3.png?v=1743413838\" style=\"width: 100%; margin-bottom: -5px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/TEMPLATE_BLOC_CONTACT_1.png?v=1743413838\" style=\"width: 100%;\">\n</div>\n<div id='ss-product-videos2'>\n</div>"
@@ -516,7 +505,6 @@
         },
         "liquid_qa6Yen": {
           "type": "liquid",
-          "name": "Photo offre marketing",
           "disabled": true,
           "settings": {
             "liquid": "<div style=\"margin-top: 5px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/BANNIERE_OFFRE_1.png?v=1743518241\" style=\"width: 100%; margin-bottom: 10px;\">"
@@ -554,7 +542,6 @@
         },
         "liquid_mGWhiT": {
           "type": "liquid",
-          "name": "Badges paiement",
           "disabled": true,
           "settings": {
             "liquid": "<div style=\"margin-top: -18px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0870/2204/3320/files/badge_paiemejnt.png?v=1736771544\" style=\"width: 100%; margin-bottom: 10px;\">"
@@ -612,7 +599,6 @@
         "image_HB98zL",
         "liquid_mgWEc8"
       ],
-      "name": "Featured product",
       "settings": {
         "full_width": true,
         "product": "premium-contour-relief-pillow",
@@ -634,7 +620,6 @@
     "custom_liquid_bYckGN": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "Custom Liquid",
       "settings": {
         "full_width": false,
         "remove_vertical_spacing": false,
@@ -648,7 +633,6 @@
     "custom_liquid_kkbBPU": {
       "type": "custom-liquid",
       "disabled": true,
-      "name": "Custom Liquid",
       "settings": {
         "full_width": false,
         "remove_vertical_spacing": false,
@@ -664,7 +648,6 @@
       "blocks": {
         "tab_tYFhCh": {
           "type": "tab",
-          "name": "Caracteristiques",
           "settings": {
             "title": "Specifications",
             "content": "<p>• <strong>Dimensions</strong>: Approximately 62 × 37 × 12 cm<br/>• <strong>Material</strong>: High-density memory foam <br/>• <strong>Weight</strong>: Approximately 1.2 kg<br/>• <strong>Cover</strong>: Removable and washable, made from hypoallergenic and breathable fabric<br/>• <strong>Design</strong>: Dual-height contours (12 cm & 14 cm) to accommodate various sleeping positions</p>",
@@ -681,7 +664,6 @@
         },
         "tab_XCBbxB": {
           "type": "tab",
-          "name": "Free shipping",
           "settings": {
             "title": "Free shipping",
             "content": "<p>Home delivery is <strong>free</strong>. Depending on the order volume, the estimated delivery time is between <br/><strong>6 and 10 working days.</strong></p>",
@@ -690,7 +672,6 @@
         },
         "tab_XkVxMh": {
           "type": "tab",
-          "name": "30 jours essaies",
           "settings": {
             "title": "30 Night Risk-Free Trial",
             "content": "<p>Your 30-night trial begins the day your pillow is delivered to your doorstep. If you decide it isn't a perfect fit for you within the first 30 nights, we'll help you process a return and issue a full refund.</p>",
@@ -699,7 +680,6 @@
         },
         "tab_WJfzRi": {
           "type": "tab",
-          "name": "Service client",
           "settings": {
             "title": "Contact Us Anytime",
             "content": "<p>Our team is here to help, <strong>7 days a week</strong>.</p><p>You can reach us by email. Don’t hesitate to get in touch.<br/>We’re happy to assist you.</p>",
@@ -714,7 +694,6 @@
         "tab_XkVxMh",
         "tab_WJfzRi"
       ],
-      "name": "Fiche technique",
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -745,7 +724,6 @@
       "block_order": [
         "heading_cWHzdB"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -757,7 +735,6 @@
     },
     "image_with_text_overlay_yV6eNp": {
       "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -832,7 +809,6 @@
         "image_kDrXGQ",
         "image_EP6jcR"
       ],
-      "name": "SS - Glow Testimonial",
       "settings": {
         "animation_time": 30,
         "loop_amount": 2,
@@ -862,10 +838,10 @@
             "only_photos": false,
             "hide_thumbnails": false,
             "product_handle": "",
-            "aggregated": true,
-            "data-limit": 6,
+            "aggregated": false,
+            "data-limit": 5,
             "maxwidth": 1080,
-            "is_sample": true
+            "is_sample": false
           }
         }
       },
@@ -945,7 +921,6 @@
         "item_6FVRBJ",
         "item_TBeWUn"
       ],
-      "name": "FAQ",
       "settings": {
         "full_width": true,
         "subheading": "",
@@ -970,7 +945,6 @@
     },
     "contact_RUdcby": {
       "type": "contact",
-      "name": "Contact form",
       "settings": {
         "full_width": true,
         "subheading": "Our customer service is available 7 days a week. Average response time: 24–48 hours.",
