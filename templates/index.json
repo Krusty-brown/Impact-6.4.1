@@ -483,6 +483,13 @@
             "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock running low!</div>\n</div>"
           }
         },
+        "liquid_GyiEVb": {
+          "type": "liquid",
+          "name": "Bientot fin offre promotionelle",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Year Badge</title>\n<style>\n  body.unique-body-Xyz567 {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n    background-color: #fff;\n  }\n\n  .unique-badge-container-Abc890 {\n    display: flex;\n    align-items: center;\n    background-color: #ffffe6; /* Açık sarı arka plan */\n    border-radius: 12px;\n    padding: 8px 12px;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    font-size: 14px;\n    color: #f0ad4e; /* Turuncu metin rengi */\n    margin: 10px 0; /* Aşağı ve yukarı boşluk ekler */\n    transition: transform 0.3s ease-in-out;\n  }\n\n  .unique-badge-container-Abc890:hover {\n    transform: translateY(-5px);\n  }\n\n  .unique-badge-icon-Def123 {\n    width: 20px;\n    height: 20px;\n    margin-right: 8px;\n    font-size: 20px;\n  }\n</style>\n</head>\n<body class=\"unique-body-Xyz567\">\n\n<div class=\"unique-badge-container-Abc890\">\n  <span class=\"unique-badge-icon-Def123\">🎉</span>\n  <span>Spring Comforts Days Sale Ending Soon!</span>\n</div>\n\n</body>\n</html>"
+          }
+        },
         "liquid_PDR9L9": {
           "type": "liquid",
           "name": "Urgence/ garantie",
@@ -596,6 +603,7 @@
         "quantity_selector_PgDJaN",
         "liquid_wPPzbT",
         "liquid_qKXULc",
+        "liquid_GyiEVb",
         "liquid_PDR9L9",
         "liquid_zDjexe",
         "liquid_WUzM4T",
