@@ -114,6 +114,7 @@
         "logo_zrykaW",
         "logo_Dz9xTt"
       ],
+      "name": "Magazines",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -157,6 +158,7 @@
     },
     "image_with_text_overlay_EtGYza": {
       "type": "image-with-text-overlay",
+      "name": "Images avec benefices",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -187,6 +189,7 @@
       "block_order": [
         "heading_aMWQiD"
       ],
+      "name": "Avant apres texte",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -198,6 +201,7 @@
     },
     "video_9fwPmk": {
       "type": "video",
+      "name": "Avant apres video",
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -301,6 +305,7 @@
         "item_AYzp9J",
         "item_cUagQd"
       ],
+      "name": "Avis client avec photo",
       "settings": {
         "full_width": false,
         "stack_on_mobile": false,
@@ -416,15 +421,6 @@
             "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 80px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(878 notes)</span>\n    </a>"
           }
         },
-        "image_FEicNE": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_DUPLIQUEZ_POUR_MODIFIER_3.png",
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
         "image_DFMKKc": {
           "type": "image",
           "name": "Canva Happy customers",
@@ -432,12 +428,6 @@
             "image": "shopify://shop_images/Notes_Avis_social_proof_1.png",
             "alignment": "center",
             "max_width": 500
-          }
-        },
-        "liquid_9Pm8AP": {
-          "type": "liquid",
-          "settings": {
-            "liquid": ""
           }
         },
         "liquid_rnc9DY": {
@@ -526,7 +516,7 @@
         },
         "liquid_PDR9L9": {
           "type": "liquid",
-          "name": "Urgence/ garantie",
+          "name": "Urgence + garantie",
           "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rotating Warnings</title>\n<style>\n  body.unique-body-Xyz789 {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n    background-color: #fff;\n  }\n\n  .unique-warning-container-Abc123 {\n    position: relative;\n    width: 100%;\n    max-width: 600px; /* Genişliği maksimum yap */\n    height: 40px; /* Yüksekliği azalt */\n    overflow: hidden;\n  }\n\n  .unique-warning-Def456 {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    border-radius: 10px;\n    color: #333;\n    font-size: 13px;\n    padding: 10px;\n    border: 1px solid #E2E2E2;\n    box-sizing: border-box;\n    opacity: 0;\n    transition: opacity 0.5s ease-in-out; /* Animasyonun süresini ve şiddetini azalt */\n  }\n\n  .unique-warning-container-Abc123 .unique-warning-Def456:nth-child(1) {\n    animation: unique-showWarning-Ghi789 8s linear infinite 0s;\n  }\n\n  .unique-warning-container-Abc123 .unique-warning-Def456:nth-child(2) {\n    animation: unique-showWarning-Ghi789 8s linear infinite 4s;\n  }\n\n  @keyframes unique-showWarning-Ghi789 {\n    0%, 50% {\n      opacity: 1;\n    }\n    50.01%, 100% {\n      opacity: 0;\n    }\n  }\n\n  .unique-red-warning-Jkl012 {\n    background-color: #ffe6e6;\n  }\n\n  .unique-green-warning-Mno345 {\n    background-color: #f0fff0;\n  }\n\n  @keyframes unique-glowRed-Pqr678 {\n    0% { box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.7); }\n    50% { box-shadow: 0 0 8px 3px rgba(255, 0, 0, 0.5); }\n    100% { box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.7); }\n  }\n\n  .unique-circleRed-Stu901 {\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background-color: #8b0000;\n    display: inline-block;\n    animation: unique-glowRed-Pqr678 1s infinite ease-in-out;\n  }\n\n  .unique-tickIcon-Vwx234 {\n    width: 14px;\n    height: 14px;\n    fill: #006400;\n    margin-right: 5px; /* Metni ikona yaklaştır */\n  }\n</style>\n</head>\n<body class=\"unique-body-Xyz789\">\n\n<div class=\"unique-warning-container-Abc123\">\n  <div class=\"unique-warning-Def456 unique-red-warning-Jkl012\">\n    <div class=\"unique-circleRed-Stu901\"></div>\n    <span style=\"margin-left: 10px;\">Hurry up! Only a few items left!</span>\n  </div>\n  <div class=\"unique-warning-Def456 unique-green-warning-Mno345\">\n    <svg class=\"unique-tickIcon-Vwx234\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n      <path d=\"M9 16.2l-4.2-4.2-1.4 1.4 5.6 5.6 12-12-1.4-1.4z\"/>\n    </svg>\n    <span>30-day money back guarantee, no questions.</span>\n  </div>\n</div>\n\n</body>\n</html>"
@@ -645,9 +635,7 @@
         "liquid_H9RJWQ",
         "liquid_mgWEc8",
         "liquid_6Yj4Rm",
-        "image_FEicNE",
         "image_DFMKKc",
-        "liquid_9Pm8AP",
         "liquid_rnc9DY",
         "image_qbkqxc",
         "kaching_bundles_app_block_8XTr4f",
@@ -697,6 +685,7 @@
       "blocks": {
         "tab_tYFhCh": {
           "type": "tab",
+          "name": "Specifications",
           "settings": {
             "title": "Specifications",
             "content": "<p>• <strong>Dimensions</strong>: Approximately 62 × 37 × 12 cm<br/>• <strong>Material</strong>: High-density memory foam <br/>• <strong>Weight</strong>: Approximately 1.2 kg<br/>• <strong>Cover</strong>: Removable and washable, made from hypoallergenic and breathable fabric<br/>• <strong>Design</strong>: Dual-height contours (12 cm & 14 cm) to accommodate various sleeping positions</p>",
@@ -705,6 +694,7 @@
         },
         "tab_RcxerQ": {
           "type": "tab",
+          "name": "Mode d'emploi",
           "settings": {
             "title": "How to use",
             "content": "<p>The pillow may take 1 to 3 days to fully expand into its proper shape. We recommend airing it out in a cool, dry, and well-ventilated space during this time.</p>",
@@ -713,6 +703,7 @@
         },
         "tab_XCBbxB": {
           "type": "tab",
+          "name": "Livraison gratuite",
           "settings": {
             "title": "Free shipping",
             "content": "<p>Home delivery is <strong>free</strong>. Depending on the order volume, the estimated delivery time is between <br/><strong>6 and 10 working days.</strong></p>",
@@ -721,6 +712,7 @@
         },
         "tab_XkVxMh": {
           "type": "tab",
+          "name": "30 jours money back",
           "settings": {
             "title": "30 Night Risk-Free Trial",
             "content": "<p>Your 30-night trial begins the day your pillow is delivered to your doorstep. If you decide it isn't a perfect fit for you within the first 30 nights, we'll help you process a return and issue a full refund.</p>",
@@ -729,6 +721,7 @@
         },
         "tab_WJfzRi": {
           "type": "tab",
+          "name": "Contact",
           "settings": {
             "title": "Contact Us Anytime",
             "content": "<p>Our team is here to help, <strong>7 days a week</strong>.</p><p>You can reach us by email. Don’t hesitate to get in touch.<br/>We’re happy to assist you.</p>",
