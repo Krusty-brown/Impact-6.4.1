@@ -434,6 +434,12 @@
             "max_width": 500
           }
         },
+        "liquid_9Pm8AP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "liquid_rnc9DY": {
           "type": "liquid",
           "name": "Quality proof FR",
@@ -641,6 +647,7 @@
         "liquid_6Yj4Rm",
         "image_FEicNE",
         "image_DFMKKc",
+        "liquid_9Pm8AP",
         "liquid_rnc9DY",
         "image_qbkqxc",
         "kaching_bundles_app_block_8XTr4f",
@@ -890,10 +897,25 @@
       "block_order": [
         "loox_reviews_loox_agg_section_Jtgptz"
       ],
+      "name": "App avis",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_TaJtnh": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "ALL revieuws verified grand",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Verified Purchase Badge</title>\n  <style>\n    .unique-verified-purchase-XYZ123 {\n      display: flex;\n      align-items: center;\n      background-color: #e9f8e9;\n      padding: 5px 10px;\n      border-radius: 5px;\n      color: #2a8703;\n      font-family: Arial, sans-serif;\n      margin: 1px 0; /* Üst ve alt kısma 2px boşluk bırakır */\n    }\n\n    .unique-verified-purchase-XYZ123 .unique-icon-XYZ123 {\n      width: 20px;\n      height: 20px;\n      margin-right: 10px;\n      background-color: #2a8703;\n      border-radius: 50%;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .unique-verified-purchase-XYZ123 .unique-icon-XYZ123 svg {\n      fill: white;\n      width: 12px;\n      height: 12px;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"unique-verified-purchase-XYZ123\">\n    <div class=\"unique-icon-XYZ123\">\n      <!-- SVG Ikon -->\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n        <path d=\"M9 19.5l-7.5-7.5 1.5-1.5L9 16.5l12-12 1.5 1.5z\"/>\n      </svg>\n    </div>\n    <span>All reviews are from verified purchases</span>\n  </div>\n</body>\n</html>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -1022,6 +1044,7 @@
     "image_with_text_overlay_yV6eNp",
     "ss_glow_testimonial_8RKmgG",
     "1747910727eb6d7ae4",
+    "custom_liquid_TaJtnh",
     "faq_RQbaAc",
     "contact_RUdcby"
   ]
