@@ -553,6 +553,14 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Year Badge</title>\n<style>\n  body.unique-body-Xyz567 {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n    background-color: #fff;\n  }\n\n  .unique-badge-container-Abc890 {\n    display: flex;\n    align-items: center;\n    background-color: #ffffe6; /* Açık sarı arka plan */\n    border-radius: 12px;\n    padding: 8px 12px;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    font-size: 14px;\n    color: #f0ad4e; /* Turuncu metin rengi */\n    margin: 10px 0; /* Aşağı ve yukarı boşluk ekler */\n    transition: transform 0.3s ease-in-out;\n  }\n\n  .unique-badge-container-Abc890:hover {\n    transform: translateY(-5px);\n  }\n\n  .unique-badge-icon-Def123 {\n    width: 20px;\n    height: 20px;\n    margin-right: 8px;\n    font-size: 20px;\n  }\n</style>\n</head>\n<body class=\"unique-body-Xyz567\">\n\n<div class=\"unique-badge-container-Abc890\">\n  <span class=\"unique-badge-icon-Def123\">🎉</span>\n  <span>Spring Comforts Days Sale Ending Soon!</span>\n</div>\n\n</body>\n</html>"
           }
         },
+        "liquid_YTTrdP": {
+          "type": "liquid",
+          "name": "30 day money back ",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"custom-container-GxfzQpBzq\" style=\"background-color: #dfffd9; border-radius: 10px; padding: 10px; margin-top: 5px; margin-bottom: 5px; position: relative; overflow: hidden;\">\n  <div class=\"custom-circle-VzMgxLkRf\"></div>\n  <span class=\"custom-text-TnBcGxHnq\" style=\"margin-left: 10px; font-size: 16px;\">30-day money back Guarantee</span>\n</div>\n\n<style>\n  @keyframes glow-animation-CtGxjLrMq {\n    0% { box-shadow: 0 0 10px 0 rgba(0, 255, 0, 0.7); }\n    50% { box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.3); }\n    100% { box-shadow: 0 0 10px 0 rgba(0, 255, 0, 0.7); }\n  }\n\n  .custom-circle-VzMgxLkRf {\n    width: 10px;\n    height: 10px;\n    border-radius: 50%;\n    background-color: green;\n    display: inline-block;\n    animation: glow-animation-CtGxjLrMq 2s infinite ease-in-out;\n  }\n\n  .custom-text-TnBcGxHnq {\n    margin-left: 10px;\n    font-size: 16px;\n  }\n</style>"
+          }
+        },
         "liquid_em43FN": {
           "type": "liquid",
           "name": "Avis clients",
@@ -629,6 +637,7 @@
         "image_6eCi93",
         "liquid_wjrkyR",
         "liquid_GyiEVb",
+        "liquid_YTTrdP",
         "liquid_em43FN",
         "liquid_8tebNN",
         "pickup_availability_8hEgYF",
