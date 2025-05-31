@@ -553,6 +553,14 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Year Badge</title>\n<style>\n  body.unique-body-Xyz567 {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n    background-color: #fff;\n  }\n\n  .unique-badge-container-Abc890 {\n    display: flex;\n    align-items: center;\n    background-color: #ffffe6; /* Açık sarı arka plan */\n    border-radius: 12px;\n    padding: 8px 12px;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    font-size: 14px;\n    color: #f0ad4e; /* Turuncu metin rengi */\n    margin: 10px 0; /* Aşağı ve yukarı boşluk ekler */\n    transition: transform 0.3s ease-in-out;\n  }\n\n  .unique-badge-container-Abc890:hover {\n    transform: translateY(-5px);\n  }\n\n  .unique-badge-icon-Def123 {\n    width: 20px;\n    height: 20px;\n    margin-right: 8px;\n    font-size: 20px;\n  }\n</style>\n</head>\n<body class=\"unique-body-Xyz567\">\n\n<div class=\"unique-badge-container-Abc890\">\n  <span class=\"unique-badge-icon-Def123\">🎉</span>\n  <span>Spring Comforts Days Sale Ending Soon!</span>\n</div>\n\n</body>\n</html>"
           }
         },
+        "liquid_em43FN": {
+          "type": "liquid",
+          "name": "Avis clients",
+          "disabled": true,
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Rating Widget</title>\n    <style>\n        body.unique-body-123 {\n            font-family: Arial, sans-serif;\n        }\n\n        .rating-widget-123 {\n            display: flex;\n            align-items: center;\n        }\n\n        .profile-images-123 {\n            display: flex;\n            align-items: center;\n            margin-right: 20px; /* Resimlerden uzaklaştırmak için artırıldı */\n        }\n\n        .profile-images-123 img {\n            width: 30px;\n            height: 30px;\n            border-radius: 50%;\n            margin-right: -10px;\n            border: 2px solid white;\n        }\n\n        .rating-123 {\n            display: flex;\n            align-items: center;\n        }\n\n        .rating-text-123 {\n            font-size: 14px; /* Font boyutu küçültüldü */\n        }\n\n        .highlight-123 {\n            color: #FF6347; /* Tomato color for highlights */\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body class=\"unique-body-123\">\n\n    <div class=\"rating-widget-123\">\n        <div class=\"profile-images-123\">\n            <img src=\"https://randomuser.me/api/portraits/men/1.jpg\" alt=\"Profile 1\">\n            <img src=\"https://randomuser.me/api/portraits/women/1.jpg\" alt=\"Profile 2\">\n            <img src=\"https://randomuser.me/api/portraits/men/2.jpg\" alt=\"Profile 3\">\n        </div>\n        <div class=\"rating-123\">\n            <span class=\"rating-text-123\">Rated <span class=\"highlight-123\">4.5/5</span> based on <span class=\"highlight-123\">+50 Reviews</span></span>\n        </div>\n    </div>\n\n</body>\n</html>"
+          }
+        },
         "liquid_8tebNN": {
           "type": "liquid",
           "name": "Avant/Apres",
@@ -621,6 +629,7 @@
         "image_6eCi93",
         "liquid_wjrkyR",
         "liquid_GyiEVb",
+        "liquid_em43FN",
         "liquid_8tebNN",
         "pickup_availability_8hEgYF",
         "liquid_mGWhiT",
