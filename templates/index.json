@@ -35,8 +35,6 @@
         "allow_transparent_header": true,
         "enable_parallax": false,
         "image_size": "md",
-        "image": "shopify://shop_images/Homme_cloud_large_canva.png",
-        "mobile_image": "shopify://shop_images/Design_sans_titre_7_7137853a-2a31-49ae-974e-5a96bbc092f6.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -47,72 +45,16 @@
     "logo_list_c3ppmd": {
       "type": "logo-list",
       "blocks": {
-        "logo_QmEghn": {
+        "logo_UqKKEi": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Mens_Health.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_EAaXdC": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Womans_Health.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_ArydTY": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Health_Time_Logo.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_mLK6ge": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/instyle.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_y8rcPW": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/ABC.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_zrykaW": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/BBC.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_Dz9xTt": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/bhc-onetrust.png",
             "logo_width": 120,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_QmEghn",
-        "logo_EAaXdC",
-        "logo_ArydTY",
-        "logo_mLK6ge",
-        "logo_y8rcPW",
-        "logo_zrykaW",
-        "logo_Dz9xTt"
+        "logo_UqKKEi"
       ],
       "name": "Magazines",
       "settings": {
@@ -164,8 +106,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Benefices_Coussins_clair.png",
-        "mobile_image": "shopify://shop_images/Benefices_Coussins_clair.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -207,8 +147,6 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "md",
-        "video": "shopify://files/videos/video_d70460d6fb854853e375ea1d235221ad copie_5d3d047c-a8cb-44fc-bd53-b5dd4548cd56.mp4",
-        "mobile_video": "shopify://files/videos/video_d70460d6fb854853e375ea1d235221ad copie_5d3d047c-a8cb-44fc-bd53-b5dd4548cd56.mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -217,94 +155,6 @@
     },
     "multi_column_tzwVE8": {
       "type": "multi-column",
-      "blocks": {
-        "item_fAaPft": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/71JQCQQ7niL.jpg",
-            "column_size": "3",
-            "title": "K. Merrill",
-            "heading_tag": "h4",
-            "content": "<p>After 15 years of neck pain from a bike accident, this pillow has been a game-changer. Unlike regular cervical pillows, it supports my neck perfectly, helping me sleep on my back without discomfort. I fall asleep faster, stay asleep, and wake up pain-free. I’m so grateful and recommend it to everyone.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_yzexQT": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/61nY0RNM5_L.jpg",
-            "column_size": "3",
-            "title": "Luis",
-            "heading_tag": "h4",
-            "content": "<p>Finally a Comfy pillow!<br/>Been a long time since I bought a new pillow, shame on me! But this one...it feels oh so comfy and contours to your neck and head while resting on it. Box says there could be discomfort for 2 weeks, but not for me. Definitely worth it!</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_heFVW9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/81HKemj_fjL.jpg",
-            "column_size": "3",
-            "title": "Kay Jay",
-            "heading_tag": "h4",
-            "content": "<p>Cradles head and cat butts well<br/>I like it a lot. Perfect for back sleepers. Only problem is I have to share it with my cat</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_Kbe9VL": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/61flLR5svZL.jpg",
-            "column_size": "3",
-            "title": "Jennysis Vee",
-            "heading_tag": "h4",
-            "content": "<p>Love it<br/>My husband stole it from me. I got it from my sleep apnea it's a decent pillow</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_AYzp9J": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/718ogZNeN3L.jpg",
-            "column_size": "3",
-            "title": "Stephanie Wilson",
-            "heading_tag": "h4",
-            "content": "<p>Great pillow<br/>I bought this because my neck has hurt every night. It no longer hurts. Just after a couple of days of having it. I'm a side and back sleeper. Glad I purchased it.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_cUagQd": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/81NPVkEloUL.jpg",
-            "column_size": "3",
-            "title": "Dustin",
-            "heading_tag": "h4",
-            "content": "<p><strong>This pillow completely cured my neck pain. My wife and I bought two because it offers incredible support. I used to wake up stiff and sore, now I feel refreshed, like after a spa day. It’s like having a personal neck masseuse.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_fAaPft",
-        "item_yzexQT",
-        "item_heFVW9",
-        "item_Kbe9VL",
-        "item_AYzp9J",
-        "item_cUagQd"
-      ],
       "name": "Avis client avec photo",
       "settings": {
         "full_width": false,
@@ -425,7 +275,6 @@
           "type": "image",
           "name": "Canva Happy customers",
           "settings": {
-            "image": "shopify://shop_images/Notes_Avis_social_proof_1.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -442,7 +291,6 @@
           "type": "image",
           "name": "Nom Offre promotionelle",
           "settings": {
-            "image": "shopify://shop_images/Template_Offre_Marketing_4_6cbc799f-0703-4659-a76a-85fb2553e4a0.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -552,7 +400,6 @@
           "name": "Moyens de paiement",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Notes_Avis_social_proof_6.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -664,7 +511,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "premium-contour-relief-pillow",
+        "product": "",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
@@ -782,8 +629,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/17969363_1.jpg",
-        "mobile_image": "shopify://shop_images/17969363_1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",

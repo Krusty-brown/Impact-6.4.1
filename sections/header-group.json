@@ -58,7 +58,6 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/Votre_texte_de_paragraphe_1_7e5d5a22-765e-4823-bebc-8fc8e0116012.png",
         "logo_max_width": 190,
         "logo_mobile_max_width": 140,
         "menu": "main-menu",
@@ -73,7 +72,6 @@
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#e3e3e3",
-        "transparent_logo": "shopify://shop_images/Votre_texte_de_paragraphe_5ad3d630-cebb-41b0-b96a-99614f64dd80.png",
         "reduce_padding": true,
         "background_opacity": 100,
         "background_blur_radius": 0
