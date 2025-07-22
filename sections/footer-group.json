@@ -23,8 +23,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free home delivery on all orders,  no extra fees.</p>"
+            "title": "Livraison Gratuite",
+            "content": "<p>Livraison à domicile gratuite pour toutes les commandes, sans frais supplémentaires.</p>"
           }
         },
         "customer-support": {
@@ -36,8 +36,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer Service",
-            "content": "<p>We’re here 7 days a week. Feel free to reach out anytime.</p>"
+            "title": "Service client",
+            "content": "<p>Nous sommes disponibles 7 jours sur 7. N’hésitez pas à nous contacter à tout moment.</p>"
           }
         },
         "discount": {
@@ -49,8 +49,8 @@
             "icon_background_type": "none",
             "icon_background": "#9aa8fe",
             "icon_color": "#000000",
-            "title": "100% Secure Payment",
-            "content": "<p>Your payment is fully encrypted and protected.</p>"
+            "title": "100% Paiement Sécurisé",
+            "content": "<p>Votre paiement est entièrement crypté et sécurisé.</p>"
           }
         },
         "payment": {
@@ -62,8 +62,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Money Back Guarantee",
-            "content": "<p>Not satisfied? Return it within 30 days for a full refund.</p>"
+            "title": "Garantie satisfait ou remboursé.",
+            "content": "<p>Pas satisfait(e) ? Retournez-le sous 30 jours pour un remboursement complet.</p>"
           }
         }
       },
