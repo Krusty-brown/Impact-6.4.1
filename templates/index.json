@@ -35,8 +35,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Copy_of_bioroot_labs_product_images.jpg",
-        "mobile_image": "shopify://shop_images/Copy_of_bioroot_labs_product_images.jpg",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#252627",
@@ -47,43 +45,15 @@
     "logo_list_c3ppmd": {
       "type": "logo-list",
       "blocks": {
-        "logo_enP46q": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/sante_magazine.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_qBgnMT": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_UqKKEi": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/womens-health-magazine-logo-vector-removebg-preview.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
         "logo_pbXzCw": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Mens-Health-Logo.png",
             "logo_width": 120,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_enP46q",
-        "logo_qBgnMT",
-        "logo_UqKKEi",
         "logo_pbXzCw"
       ],
       "name": "Magazines",
