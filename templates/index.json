@@ -15,8 +15,8 @@
         "heading_BecCNN": {
           "type": "heading",
           "settings": {
-            "text": "Say goodbye to sleep pain!                            Say hello to deep sleep",
-            "heading_tag": "h2"
+            "text": "Douleurs articulaires ? Soulagez-les naturellement dès aujourd’hui.",
+            "heading_tag": "h3"
           }
         },
         "richtext_nJAUFy": {
@@ -32,12 +32,14 @@
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "md",
-        "mobile_text_position": "place-self-center text-center",
+        "image_size": "auto",
+        "image": "shopify://shop_images/Copy_of_bioroot_labs_product_images.jpg",
+        "mobile_image": "shopify://shop_images/Copy_of_bioroot_labs_product_images.jpg",
+        "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
+        "text_color": "#252627",
         "overlay_color": "#000000",
         "overlay_opacity": 6
       }
@@ -295,12 +297,6 @@
             "max_width": 500
           }
         },
-        "kaching_bundles_app_block_8XTr4f": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
         "price_nwTKD6": {
           "type": "price",
           "disabled": true,
@@ -485,7 +481,6 @@
         "image_DFMKKc",
         "liquid_rnc9DY",
         "image_qbkqxc",
-        "kaching_bundles_app_block_8XTr4f",
         "price_nwTKD6",
         "rating_gAVpEc",
         "description_rQAcbR",
@@ -642,7 +637,6 @@
         "image_MQwG3V": {
           "type": "Image",
           "settings": {
-            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
             "review_text": "Great product!I really like this item I would definitely recommend it to get the job done !",
             "review_rating": 5
           }
@@ -650,7 +644,6 @@
         "image_iX9Ewe": {
           "type": "Image",
           "settings": {
-            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
             "review_text": "Very comfortable. Takes a couple days too get used to it. My neck and shoulder are feeling much better.",
             "review_rating": 5
           }
@@ -658,7 +651,6 @@
         "image_miH6ka": {
           "type": "Image",
           "settings": {
-            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
             "review_text": "Feels good on my neck",
             "review_rating": 5
           }
@@ -666,7 +658,6 @@
         "image_FKzTCj": {
           "type": "Image",
           "settings": {
-            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
             "review_text": "Husband seem to like it",
             "review_rating": 5
           }
@@ -674,7 +665,6 @@
         "image_kDrXGQ": {
           "type": "Image",
           "settings": {
-            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
             "review_text": "I’m sleeping better now that I have this pillow.",
             "review_rating": 5
           }
@@ -682,7 +672,6 @@
         "image_EP6jcR": {
           "type": "Image",
           "settings": {
-            "review_icon": "shopify://shop_images/Notes_Avis_social_proof_4.png",
             "review_text": "After only using for two nights, my husband says his neck is noticeably better! He’s tried everything; finally a pillow that helps.",
             "review_rating": 5
           }
@@ -718,23 +707,6 @@
     },
     "1747910727eb6d7ae4": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_Jtgptz": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": false,
-            "data-limit": 5,
-            "maxwidth": 1080,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_Jtgptz"
-      ],
       "name": "App avis",
       "settings": {
         "full_width": true,
