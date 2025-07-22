@@ -110,7 +110,7 @@
           "type": "heading",
           "settings": {
             "text": "Recommandé par les experts",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -123,7 +123,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#ededed",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "#000000"
       }
