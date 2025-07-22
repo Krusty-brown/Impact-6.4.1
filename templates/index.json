@@ -99,8 +99,8 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "rgba(0,0,0,0)",
-        "logo_item_border": ""
+        "logo_item_background": "#ffffff",
+        "logo_item_border": "#ffffff"
       }
     },
     "rich_text_cEVir7": {
@@ -109,7 +109,7 @@
         "heading_P93JY6": {
           "type": "heading",
           "settings": {
-            "text": "Why Should You Choose Cloomy?",
+            "text": "Recommandé par les experts",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
