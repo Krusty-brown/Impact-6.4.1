@@ -734,6 +734,72 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_JgL8wk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xtaMTH": {
+          "type": "heading",
+          "settings": {
+            "text": "Des ingredients de qualité",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_xtaMTH"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_fqPmR8": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_rpg6ny": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_HLzim3": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_rpg6ny",
+        "item_HLzim3"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "ss_glow_testimonial_8RKmgG": {
       "type": "ss-glow-testimonial",
       "blocks": {
@@ -788,6 +854,7 @@
         "image_kDrXGQ",
         "image_EP6jcR"
       ],
+      "disabled": true,
       "settings": {
         "animation_time": 30,
         "loop_amount": 2,
@@ -924,9 +991,9 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "subheading": "Our customer service is available 7 days a week. Average response time: 24–48 hours.",
-        "title": "Do you have any question?",
-        "content": "<p>Write to us using the form below and we’ll get back to you as soon as possible.</p>",
+        "subheading": "Notre service client est disponible 7 jours sur 7. Délai moyen de réponse : 24 à 48 heures.",
+        "title": "Une question ?",
+        "content": "<p>N’hésitez pas à nous écrire, nous sommes là pour vous aider.</p>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "",
@@ -954,6 +1021,8 @@
     "tabs_UYNyXK",
     "rich_text_zTeKM8",
     "image_with_text_overlay_yV6eNp",
+    "rich_text_JgL8wk",
+    "images_with_text_scrolling_fqPmR8",
     "ss_glow_testimonial_8RKmgG",
     "1747910727eb6d7ae4",
     "custom_liquid_TaJtnh",
