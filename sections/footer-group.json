@@ -92,8 +92,8 @@
           "type": "newsletter",
           "settings": {
             "image_width": 150,
-            "heading_size": "h3",
-            "title": "Subscribe now and enjoy a better night’s sleep.",
+            "heading_size": "h4",
+            "title": "Rejoins-nous et retrouve le plaisir de bouger librement et sans douleurs.",
             "content": ""
           }
         },
@@ -109,7 +109,7 @@
           "type": "text",
           "settings": {
             "title": "Customer service",
-            "content": "<p><strong>Mail: </strong>contact@my-cloomy.com<br/><br/><strong>Response time:</strong> 24h-48h</p>",
+            "content": "<p><strong>Mail: </strong>contact@natura-form.com<br/><br/><strong>Temps de réponse:</strong> 24h-48h</p>",
             "enable_follow_on_shop": false
           }
         }
