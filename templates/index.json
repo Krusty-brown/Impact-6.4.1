@@ -143,48 +143,64 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_xrdkRr": {
-      "type": "rich-text",
+    "multi_column_tzwVE8": {
+      "type": "multi-column",
       "blocks": {
-        "heading_aMWQiD": {
-          "type": "heading",
+        "item_mXDeyV": {
+          "type": "item",
           "settings": {
-            "text": "See the difference:   Perfect sleep, every night",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ei3UDc": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VWfFUW": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CXEYwB": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "heading_aMWQiD"
+        "item_mXDeyV",
+        "item_ei3UDc",
+        "item_VWfFUW",
+        "item_CXEYwB"
       ],
-      "name": "Avant apres texte",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_9fwPmk": {
-      "type": "video",
-      "name": "Avant apres video",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "external_video_url": "",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "multi_column_tzwVE8": {
-      "type": "multi-column",
       "name": "Avis client avec photo",
       "settings": {
         "full_width": false,
@@ -550,6 +566,65 @@
         "input_text_color": ""
       }
     },
+    "multi_column_RyjPbz": {
+      "type": "multi-column",
+      "blocks": {
+        "item_bNQPi7": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_8kxGjf": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_imac7z": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_bNQPi7",
+        "item_8kxGjf",
+        "item_imac7z"
+      ],
+      "name": "Videos clients",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Featured content",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "tabs_UYNyXK": {
       "type": "tabs",
       "blocks": {
@@ -871,12 +946,11 @@
     "logo_list_c3ppmd",
     "rich_text_cEVir7",
     "image_with_text_overlay_EtGYza",
-    "rich_text_xrdkRr",
-    "video_9fwPmk",
     "multi_column_tzwVE8",
     "custom_liquid_WVKqBW",
     "custom_liquid_MqfUTU",
     "featured_product_jWDqw9",
+    "multi_column_RyjPbz",
     "tabs_UYNyXK",
     "rich_text_zTeKM8",
     "image_with_text_overlay_yV6eNp",
