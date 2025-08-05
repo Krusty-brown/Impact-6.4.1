@@ -31,13 +31,41 @@
         "logo_pbXzCw": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_QHLGVN": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_BtaQMK": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Elle.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_mNxVmU": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.png",
             "logo_width": 120,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_pbXzCw"
+        "logo_pbXzCw",
+        "logo_QHLGVN",
+        "logo_BtaQMK",
+        "logo_mNxVmU"
       ],
       "name": "Magazines",
       "settings": {
