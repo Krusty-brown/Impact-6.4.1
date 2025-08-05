@@ -58,8 +58,9 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
+        "logo": "shopify://shop_images/Logo_Notes_Avis_social_proof_500_x_500_px_22.png",
         "logo_max_width": 190,
-        "logo_mobile_max_width": 140,
+        "logo_mobile_max_width": 170,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",

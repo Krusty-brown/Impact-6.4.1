@@ -100,6 +100,7 @@
       "block_order": [
         "heading_P93JY6"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -117,6 +118,51 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Benefices_Coussins_14.png",
+        "mobile_image": "shopify://shop_images/Benefices_Coussins_14.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_hnjV3N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pECLaY": {
+          "type": "heading",
+          "settings": {
+            "text": "Ce que nos clients aiment",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_pECLaY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f9f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_NfWLrA": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Sans_titre_3000_x_1500_px_3.png",
+        "mobile_image": "shopify://shop_images/Sans_titre_3000_x_1500_px_3.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -131,9 +177,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Jannet R.",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Même mon mari l’a remarqué ! Moins de chute, racines plus fournies et cheveux sublimes en 7 semaines.<br/>La sensation est incroyable… tu regretteras de ne pas avoir commencé plus tôt.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -994,6 +1040,8 @@
     "logo_list_c3ppmd",
     "rich_text_cEVir7",
     "image_with_text_overlay_EtGYza",
+    "rich_text_hnjV3N",
+    "image_with_text_overlay_NfWLrA",
     "multi_column_tzwVE8",
     "custom_liquid_WVKqBW",
     "custom_liquid_MqfUTU",
