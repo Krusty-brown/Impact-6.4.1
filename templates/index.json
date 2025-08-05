@@ -11,35 +11,18 @@
   "sections": {
     "image_with_text_overlay_FhdizH": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_BecCNN": {
-          "type": "heading",
-          "settings": {
-            "text": "Douleurs articulaires ? Soulagez-les naturellement dès aujourd’hui.",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_nJAUFy": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_BecCNN",
-        "richtext_nJAUFy"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Facile_a_avaler_19.png",
+        "mobile_image": "shopify://shop_images/Facile_a_avaler_19.png",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#252627",
         "overlay_color": "#000000",
-        "overlay_opacity": 6
+        "overlay_opacity": 0
       }
     },
     "logo_list_c3ppmd": {
