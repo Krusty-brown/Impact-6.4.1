@@ -189,10 +189,11 @@
         "item_ei3UDc": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Key_Ingredients_23.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Carine D.",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>À 35 ans, je pensais que des cheveux plats et clairsemés faisaient juste partie de ma vie. Puis j’ai découvert ce produit… en 3 mois, mes cheveux étaient méconnaissables.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -202,9 +203,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Johanna L.",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>J’ai essayé tellement de sérums sans aucun vrai résultat, mais celui-ci a tout changé. En seulement 10 jours, mes cheveux semblaient plus denses, et après six mois, ils étaient méconnaissables.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -236,9 +237,9 @@
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
-        "title": "What customers say about it",
+        "title": "",
         "content": "",
-        "background": "rgba(0,0,0,0)",
+        "background": "#f9f6f2",
         "background_gradient": "",
         "text_color": ""
       }
