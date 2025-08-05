@@ -202,6 +202,7 @@
         "item_VWfFUW": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Key_Ingredients_24.png",
             "column_size": "3",
             "title": "Johanna L.",
             "heading_tag": "h4",
@@ -211,13 +212,53 @@
             "link_style": "link"
           }
         },
+        "item_NK8UGC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Facile_a_avaler_13.png",
+            "column_size": "3",
+            "title": "Rachel D.",
+            "heading_tag": "h4",
+            "content": "<p>J’utilise ce sérum depuis un peu plus d’une semaine et je suis déjà bluffée. Il est léger, non gras, et ne laisse aucun résidu. Mon cuir chevelu est plus sain, mes cheveux plus brillants et plus denses. La sensation fraîche est super agréable, comme un mini soin spa. Il exfolie aussi les pellicules tout en favorisant la pousse. Je le recommande vivement !</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pz7ANU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Facile_a_avaler_15.png",
+            "column_size": "3",
+            "title": "Julie R.",
+            "heading_tag": "h4",
+            "content": "<p>J’utilise ce sérum depuis quelques jours et j’aime beaucoup. Il est léger, non gras, et s’absorbe vite sans alourdir les cheveux. L’applicateur est pratique et l’odeur fraîche est très discrète. Que ce soit sur cheveux secs ou après la douche, il est apaisant et agréable à appliquer.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Yw4QUQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/71sP-GgZMPL.jpg",
+            "column_size": "3",
+            "title": "Nicole T.",
+            "heading_tag": "h4",
+            "content": "<p>Sérum léger, sans résidu, que j’utilise même sur cheveux propres sans graisser les racines. Le roll-on est pratique et agréable à appliquer, avec une légère odeur mentholée. Il rafraîchit bien le cuir chevelu, surtout après un massage. Hâte de voir les résultats sur le long terme.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_CXEYwB": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Facile_a_avaler_16.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Juliette F.",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Avec l’âge, mes cheveux ont commencé à s’affiner et mon cuir chevelu à devenir sec. Ce sérum est très rafraîchissant, le menthol apaise sans laisser de film gras. Il s’absorbe vite et laisse le cuir chevelu propre et équilibré. Je vais continuer à l’utiliser.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -228,6 +269,9 @@
         "item_mXDeyV",
         "item_ei3UDc",
         "item_VWfFUW",
+        "item_NK8UGC",
+        "item_pz7ANU",
+        "item_Yw4QUQ",
         "item_CXEYwB"
       ],
       "name": "Avis client avec photo",
