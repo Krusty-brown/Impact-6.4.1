@@ -417,8 +417,15 @@
           "type": "image",
           "name": "Nom Offre promotionelle",
           "settings": {
+            "image": "shopify://shop_images/Offre_promotionelle_12.png",
             "alignment": "center",
             "max_width": 500
+          }
+        },
+        "kaching_bundles_app_block_wapNrd": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
           }
         },
         "price_nwTKD6": {
@@ -606,6 +613,7 @@
         "liquid_6Yj4Rm",
         "liquid_rnc9DY",
         "image_qbkqxc",
+        "kaching_bundles_app_block_wapNrd",
         "price_nwTKD6",
         "rating_gAVpEc",
         "description_rQAcbR",
