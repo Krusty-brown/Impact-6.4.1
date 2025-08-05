@@ -322,7 +322,7 @@
         "title_qpdrVy": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h3"
           }
         },
         "separator_VwBkN4": {
@@ -333,6 +333,21 @@
         "badges_LY9afh": {
           "type": "badges",
           "settings": {}
+        },
+        "image_DFMKKc": {
+          "type": "image",
+          "name": "Canva Happy customers",
+          "settings": {
+            "image": "shopify://shop_images/Logo_Notes_Avis_social_proof_500_x_500_px_24.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "liquid_UhcwkP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Stoppe la chute dès 2 semaines</span>\n</li> \n<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Redonne du volume naturel</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 3px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Favorise une repousse homogène</span>\n</li>\n<li style=\"display: flex; align-items: center; margin-bottom: 17px;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0933/4190/9318/files/check_3.png?v=1743372065\" alt=\"Icône coche\" style=\"width: 18px; height: 18px; margin-right: 6px;\">\n<span style=\"line-height: 1.25;\">Cuir chevelu plus sain chaque jour</span>\n</li>"
+          }
         },
         "liquid_JhqBmw": {
           "type": "liquid",
@@ -388,14 +403,6 @@
           "disabled": true,
           "settings": {
             "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 80px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(878 notes)</span>\n    </a>"
-          }
-        },
-        "image_DFMKKc": {
-          "type": "image",
-          "name": "Canva Happy customers",
-          "settings": {
-            "alignment": "center",
-            "max_width": 500
           }
         },
         "liquid_rnc9DY": {
@@ -588,6 +595,8 @@
         "title_qpdrVy",
         "separator_VwBkN4",
         "badges_LY9afh",
+        "image_DFMKKc",
+        "liquid_UhcwkP",
         "liquid_JhqBmw",
         "liquid_CQMbXr",
         "liquid_kRHFp8",
@@ -595,7 +604,6 @@
         "liquid_H9RJWQ",
         "liquid_mgWEc8",
         "liquid_6Yj4Rm",
-        "image_DFMKKc",
         "liquid_rnc9DY",
         "image_qbkqxc",
         "price_nwTKD6",
@@ -623,7 +631,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "serum-pousse-des-cheveux-by-alvora",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
