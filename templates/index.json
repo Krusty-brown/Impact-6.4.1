@@ -176,6 +176,7 @@
         "item_mXDeyV": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Key_Ingredients_22.png",
             "column_size": "3",
             "title": "Jannet R.",
             "heading_tag": "h4",
